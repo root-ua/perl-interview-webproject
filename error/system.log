@@ -1,0 +1,75 @@
+[14.11.2014 21:11:57]	[IP: NULL]	[method: NULL]	< DBD::mysql::st fetchall_hashref failed: Handle is not in asynchronous mode [err was 2000 now 2000000000]
+Field 'i.invoice_id' does not exist (not one of invoice_id invoice_amount client_id invoice_date last_name first_name payment_date) [for Statement "SELECT `c`.`first_name`, `c`.`last_name`, `i`.`invoice_id`, `i`.`client_id`, `i`.`invoice_amount`, `i`.`invoice_date`,
+                           `i`.`payment_date` FROM `invoice` AS `i` INNER JOIN `client` AS `c` ON `i`.`client_id` = `c`.`client_id` "] >	
+	URL: NULL
+
+[14.11.2014 21:25:28]	[IP: 10.100.0.9]	[method: GET]	< DBD::mysql::st execute failed: Unknown column 'invoice_id' in 'field list' [for Statement "SELECT `invoice_id`, `client_id`, `invoice_amount`, `invoice_date`, `payment_date` FROM `client` WHERE `client_id` = '1'"] >	
+	URL: /cgi-bin/u_managment/index.cgi?cmd=client_invoices&id=1
+
+[14.11.2014 21:25:28]	[IP: 10.100.0.9]	[method: GET]	< DBD::mysql::st fetchall_hashref failed: statement contains no result [err was 4 now 2000000000]
+Field 'invoice_id' does not exist (not one of ) [for Statement "SELECT `invoice_id`, `client_id`, `invoice_amount`, `invoice_date`, `payment_date` FROM `client` WHERE `client_id` = '1'"] >	
+	URL: /cgi-bin/u_managment/index.cgi?cmd=client_invoices&id=1
+
+[14.11.2014 21:26:17]	[IP: 10.100.0.9]	[method: GET]	< DBD::mysql::st execute failed: Unknown column 'invoice_id' in 'field list' [for Statement "SELECT `invoice_id`, `client_id`, `invoice_amount`, `invoice_date`, `payment_date` FROM `client` WHERE `client_id` = '1'"] >	
+	URL: /cgi-bin/u_managment/index.cgi?cmd=client_invoices&id=1
+
+[14.11.2014 21:26:17]	[IP: 10.100.0.9]	[method: GET]	< DBD::mysql::st fetchall_hashref failed: statement contains no result [err was 4 now 2000000000]
+Field 'invoice_id' does not exist (not one of ) [for Statement "SELECT `invoice_id`, `client_id`, `invoice_amount`, `invoice_date`, `payment_date` FROM `client` WHERE `client_id` = '1'"] >	
+	URL: /cgi-bin/u_managment/index.cgi?cmd=client_invoices&id=1
+
+[14.11.2014 21:26:19]	[IP: 10.100.0.9]	[method: GET]	< DBD::mysql::st execute failed: Unknown column 'invoice_id' in 'field list' [for Statement "SELECT `invoice_id`, `client_id`, `invoice_amount`, `invoice_date`, `payment_date` FROM `client` WHERE `client_id` = '1'"] >	
+	URL: /cgi-bin/u_managment/index.cgi?cmd=client_invoices&id=1
+
+[14.11.2014 21:26:19]	[IP: 10.100.0.9]	[method: GET]	< DBD::mysql::st fetchall_hashref failed: statement contains no result [err was 4 now 2000000000]
+Field 'invoice_id' does not exist (not one of ) [for Statement "SELECT `invoice_id`, `client_id`, `invoice_amount`, `invoice_date`, `payment_date` FROM `client` WHERE `client_id` = '1'"] >	
+	URL: /cgi-bin/u_managment/index.cgi?cmd=client_invoices&id=1
+
+[14.11.2014 21:28:17]	[IP: NULL]	[method: NULL]	< DBD::mysql::st execute failed: Unknown column 'invoice_id' in 'field list' [for Statement "SELECT `invoice_id`, `client_id`, `invoice_amount`, `invoice_date`, `payment_date` FROM `client` WHERE `client_id` = '1'"] >	
+	URL: NULL
+
+[14.11.2014 21:28:17]	[IP: NULL]	[method: NULL]	< DBD::mysql::st fetchall_hashref failed: statement contains no result [err was 4 now 2000000000]
+Field 'invoice_id' does not exist (not one of ) [for Statement "SELECT `invoice_id`, `client_id`, `invoice_amount`, `invoice_date`, `payment_date` FROM `client` WHERE `client_id` = '1'"] >	
+	URL: NULL
+
+[14.11.2014 21:28:22]	[IP: 10.100.0.9]	[method: GET]	< DBD::mysql::st execute failed: Unknown column 'invoice_id' in 'field list' [for Statement "SELECT `invoice_id`, `client_id`, `invoice_amount`, `invoice_date`, `payment_date` FROM `client` WHERE `client_id` = '1'"] >	
+	URL: /cgi-bin/u_managment/index.cgi?cmd=client_invoices&id=1
+
+[14.11.2014 21:28:22]	[IP: 10.100.0.9]	[method: GET]	< DBD::mysql::st fetchall_hashref failed: statement contains no result [err was 4 now 2000000000]
+Field 'invoice_id' does not exist (not one of ) [for Statement "SELECT `invoice_id`, `client_id`, `invoice_amount`, `invoice_date`, `payment_date` FROM `client` WHERE `client_id` = '1'"] >	
+	URL: /cgi-bin/u_managment/index.cgi?cmd=client_invoices&id=1
+
+[14.11.2014 21:28:57]	[IP: 10.100.0.9]	[method: GET]	< DBD::mysql::st execute failed: Unknown column 'invoice_id' in 'field list' [for Statement "SELECT `invoice_id`, `client_id`, `invoice_amount`, `invoice_date`, `payment_date` FROM `client` WHERE `client_id` = '1'"] >	
+	URL: /cgi-bin/u_managment/index.cgi?cmd=client_invoices&id=1
+
+[14.11.2014 21:28:57]	[IP: 10.100.0.9]	[method: GET]	< DBD::mysql::st fetchall_hashref failed: statement contains no result [err was 4 now 2000000000]
+Field 'invoice_id' does not exist (not one of ) [for Statement "SELECT `invoice_id`, `client_id`, `invoice_amount`, `invoice_date`, `payment_date` FROM `client` WHERE `client_id` = '1'"] >	
+	URL: /cgi-bin/u_managment/index.cgi?cmd=client_invoices&id=1
+
+[14.11.2014 21:29:31]	[IP: NULL]	[method: NULL]	< DBD::mysql::st execute failed: Unknown column 'invoice_id' in 'field list' [for Statement "SELECT `invoice_id`, `client_id`, `invoice_amount`, `invoice_date`, `payment_date` FROM `client` WHERE `client_id` = '1'"] >	
+	URL: NULL
+
+[14.11.2014 21:29:31]	[IP: NULL]	[method: NULL]	< DBD::mysql::st fetchall_hashref failed: statement contains no result [err was 4 now 2000000000]
+Field 'invoice_id' does not exist (not one of ) [for Statement "SELECT `invoice_id`, `client_id`, `invoice_amount`, `invoice_date`, `payment_date` FROM `client` WHERE `client_id` = '1'"] >	
+	URL: NULL
+
+[14.11.2014 21:31:53]	[IP: 10.100.0.9]	[method: GET]	< DBD::mysql::st execute failed: Unknown column 'invoice_id' in 'field list' [for Statement "SELECT `invoice_id`, `client_id`, `invoice_amount`, `invoice_date`, `payment_date` FROM `client` WHERE `client_id` = '2'"] >	
+	URL: /cgi-bin/u_managment/index.cgi?cmd=client_invoices&id=2
+
+[14.11.2014 21:31:53]	[IP: 10.100.0.9]	[method: GET]	< DBD::mysql::st fetchall_hashref failed: statement contains no result [err was 4 now 2000000000]
+Field 'invoice_id' does not exist (not one of ) [for Statement "SELECT `invoice_id`, `client_id`, `invoice_amount`, `invoice_date`, `payment_date` FROM `client` WHERE `client_id` = '2'"] >	
+	URL: /cgi-bin/u_managment/index.cgi?cmd=client_invoices&id=2
+
+[14.11.2014 21:32:21]	[IP: 10.100.0.9]	[method: GET]	< DBD::mysql::st execute failed: Table 'test.invoices' doesn't exist [for Statement "SELECT `invoice_id`, `client_id`, `invoice_amount`, `invoice_date`, `payment_date` FROM `invoices` WHERE `client_id` = '2'"] >	
+	URL: /cgi-bin/u_managment/index.cgi?cmd=client_invoices&id=2
+
+[14.11.2014 21:32:21]	[IP: 10.100.0.9]	[method: GET]	< DBD::mysql::st fetchall_hashref failed: statement contains no result [err was 4 now 2000000000]
+Field 'invoice_id' does not exist (not one of ) [for Statement "SELECT `invoice_id`, `client_id`, `invoice_amount`, `invoice_date`, `payment_date` FROM `invoices` WHERE `client_id` = '2'"] >	
+	URL: /cgi-bin/u_managment/index.cgi?cmd=client_invoices&id=2
+
+[14.11.2014 21:32:23]	[IP: 10.100.0.9]	[method: GET]	< DBD::mysql::st execute failed: Table 'test.invoices' doesn't exist [for Statement "SELECT `invoice_id`, `client_id`, `invoice_amount`, `invoice_date`, `payment_date` FROM `invoices` WHERE `client_id` = '2'"] >	
+	URL: /cgi-bin/u_managment/index.cgi?cmd=client_invoices&id=2
+
+[14.11.2014 21:32:23]	[IP: 10.100.0.9]	[method: GET]	< DBD::mysql::st fetchall_hashref failed: statement contains no result [err was 4 now 2000000000]
+Field 'invoice_id' does not exist (not one of ) [for Statement "SELECT `invoice_id`, `client_id`, `invoice_amount`, `invoice_date`, `payment_date` FROM `invoices` WHERE `client_id` = '2'"] >	
+	URL: /cgi-bin/u_managment/index.cgi?cmd=client_invoices&id=2
+
